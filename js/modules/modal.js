@@ -12,7 +12,7 @@ export default function initModal() {
         
         function cliqueForaModal(event) {
             if(event.target === this){
-                modal(event);
+                toggleModal(event);
             };
         };
         
